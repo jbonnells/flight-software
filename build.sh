@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # exit on error
-set -e 
+set -e
 
 # create build directory
 BUILD_DIR="build"
