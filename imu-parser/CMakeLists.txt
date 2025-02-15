@@ -3,7 +3,7 @@ project(imu_parser)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(imu_parser ImuParser.cpp)
+add_executable(imu_parser.o ImuParser.cpp)
 
 target_include_directories(imu_parser PRIVATE /usr/include)
 
