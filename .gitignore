@@ -1,11 +1,6 @@
-.vscode/
-*/.vscode/
-CMakeFiles/
-*/CMakeFiles/
-CMakeCache.txt
-*/CMakeCache.txt
-Makefile
-*/Makefile
-*.cmake
-*/*.cmake
-*/*.o
+**/.vscode/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Makefile
+**/*.cmake
+**/*.o
