@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(server.o server.cpp)
 
-target_include_directories(server PRIVATE /usr/include)
+target_include_directories(server.o PRIVATE /usr/include)
 
-target_link_libraries(server PRIVATE pthread)
+target_link_libraries(server.o PRIVATE pthread)
