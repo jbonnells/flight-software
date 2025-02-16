@@ -1,3 +1,5 @@
+// Julian Bonnells
+
 #include "server.hpp"
 
 Server::Server() : current_state(State::RESTARTING), command_counter(0), safe_mode_counter(0), invalid_counter(0),

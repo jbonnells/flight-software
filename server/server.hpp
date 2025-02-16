@@ -1,4 +1,5 @@
-// server.hpp
+// Julian Bonnells
+
 #ifndef SERVER_HPP
 #define SERVER_HPP
 
